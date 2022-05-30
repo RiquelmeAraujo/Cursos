@@ -1,0 +1,53 @@
+body {
+    background: rgb(139, 139, 223);
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px; 
+    width: 500px;
+    margin: auto;   
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.74);
+}
+
+div{
+    text-align: left;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
+label > input{
+    margin-left: 20px;
+}
+
+button{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+    border: none;
+    color: white;
+    background-color: rgb(139, 139, 223);
+    transition: 0.5s;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 25px;
+}
+button:hover{
+    background-color: rgba(139, 139, 223, 0.781);
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
